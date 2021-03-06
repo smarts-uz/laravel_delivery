@@ -9,6 +9,7 @@ Archives
 Autosave
 /bower
 /yarner
+/vendor
 node_modules
 _mirrors_
 _gsdata_
