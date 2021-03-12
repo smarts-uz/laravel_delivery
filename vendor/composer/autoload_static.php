@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
+class ComposerStaticInit5bc8e195913a0ba1e07cfefd619bb7c7
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -129,7 +129,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'T' => 
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
-            'Themsaid\\Langman\\' => 17,
             'Tests\\' => 6,
         ),
         'S' => 
@@ -194,7 +193,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'O' => 
         array (
             'Overtrue\\LaravelLang\\' => 21,
-            'Org_Heigl\\Ghostscript\\' => 22,
             'Opis\\Closure\\' => 13,
         ),
         'N' => 
@@ -318,10 +316,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
-        ),
-        'Themsaid\\Langman\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/themsaid/laravel-langman/src',
         ),
         'Tests\\' => 
         array (
@@ -531,10 +525,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Overtrue\\LaravelLang\\' => 
         array (
             0 => __DIR__ . '/..' . '/overtrue/laravel-lang/src',
-        ),
-        'Org_Heigl\\Ghostscript\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/org_heigl/ghostscript/src',
         ),
         'Opis\\Closure\\' => 
         array (
@@ -1190,7 +1180,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
         'Complex\\Complex' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Complex.php',
         'Complex\\Exception' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Exception.php',
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CouponPermission' => __DIR__ . '/../..' . '/database/seeds/CouponPermission.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -2295,7 +2284,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'FavoritesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/FavoritesTableSeeder.php',
         'Fideloper\\Proxy\\TrustProxies' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustProxies.php',
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
-        'FindCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/FindCommandTest.php',
         'FontLib\\AdobeFontMetrics' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/AdobeFontMetrics.php',
         'FontLib\\Autoloader' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/Autoloader.php',
         'FontLib\\BinaryStream' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/BinaryStream.php',
@@ -2600,6 +2588,9 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'HTMLPurifier_Printer' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer.php',
         'HTMLPurifier_Printer_CSSDefinition' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/CSSDefinition.php',
         'HTMLPurifier_Printer_ConfigForm' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.php',
+        'HTMLPurifier_Printer_ConfigForm_NullDecorator' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.php',
+        'HTMLPurifier_Printer_ConfigForm_bool' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.php',
+        'HTMLPurifier_Printer_ConfigForm_default' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.php',
         'HTMLPurifier_Printer_HTMLDefinition' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Printer/HTMLDefinition.php',
         'HTMLPurifier_PropertyList' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/PropertyList.php',
         'HTMLPurifier_PropertyListIterator' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/PropertyListIterator.php',
@@ -3584,6 +3575,7 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'InfyOm\\Generator\\Generators\\API\\APIRequestGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/API/APIRequestGenerator.php',
         'InfyOm\\Generator\\Generators\\API\\APIRoutesGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/API/APIRoutesGenerator.php',
         'InfyOm\\Generator\\Generators\\API\\APITestGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/API/APITestGenerator.php',
+        'InfyOm\\Generator\\Generators\\API\\TestGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/VueJs/TestGenerator.php',
         'InfyOm\\Generator\\Generators\\BaseGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/BaseGenerator.php',
         'InfyOm\\Generator\\Generators\\MigrationGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/MigrationGenerator.php',
         'InfyOm\\Generator\\Generators\\ModelGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/ModelGenerator.php',
@@ -3600,10 +3592,13 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'InfyOm\\Generator\\Generators\\VueJs\\ControllerGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/VueJs/ControllerGenerator.php',
         'InfyOm\\Generator\\Generators\\VueJs\\ModelJsConfigGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/VueJs/ModelJsConfigGenerator.php',
         'InfyOm\\Generator\\Generators\\VueJs\\ViewGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/VueJs/ViewGenerator.php',
+        'InfyOm\\Generator\\Generators\\Vuejs\\RoutesGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Generators/VueJs/RoutesGenerator.php',
         'InfyOm\\Generator\\InfyOmGeneratorServiceProvider' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/InfyOmGeneratorServiceProvider.php',
         'InfyOm\\Generator\\Request\\APIRequest' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Request/APIRequest.php',
         'InfyOm\\Generator\\Utils\\FileUtil' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/FileUtil.php',
         'InfyOm\\Generator\\Utils\\GeneratorFieldsInputUtil' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/GeneratorFieldsInputUtil.php',
+        'InfyOm\\Generator\\Utils\\GeneratorForeignKey' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/TableFieldsGenerator.php',
+        'InfyOm\\Generator\\Utils\\GeneratorTable' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/TableFieldsGenerator.php',
         'InfyOm\\Generator\\Utils\\HTMLFieldGenerator' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/HTMLFieldGenerator.php',
         'InfyOm\\Generator\\Utils\\ResponseUtil' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/ResponseUtil.php',
         'InfyOm\\Generator\\Utils\\SchemaUtil' => __DIR__ . '/..' . '/smartervision/laravel-generator/src/Utils/SchemaUtil.php',
@@ -3738,7 +3733,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/Highlighter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
-        'Kernel' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/Kernel.php',
         'Laracasts\\Flash\\Flash' => __DIR__ . '/..' . '/laracasts/flash/src/Laracasts/Flash/Flash.php',
         'Laracasts\\Flash\\FlashNotifier' => __DIR__ . '/..' . '/laracasts/flash/src/Laracasts/Flash/FlashNotifier.php',
         'Laracasts\\Flash\\FlashServiceProvider' => __DIR__ . '/..' . '/laracasts/flash/src/Laracasts/Flash/FlashServiceProvider.php',
@@ -4060,7 +4054,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'MaddHatter\\LaravelFullcalendar\\IdentifiableEvent' => __DIR__ . '/..' . '/maddhatter/laravel-fullcalendar/src/MaddHatter/LaravelFullcalendar/IdentifiableEvent.php',
         'MaddHatter\\LaravelFullcalendar\\ServiceProvider' => __DIR__ . '/..' . '/maddhatter/laravel-fullcalendar/src/MaddHatter/LaravelFullcalendar/ServiceProvider.php',
         'MaddHatter\\LaravelFullcalendar\\SimpleEvent' => __DIR__ . '/..' . '/maddhatter/laravel-fullcalendar/src/MaddHatter/LaravelFullcalendar/SimpleEvent.php',
-        'ManagerTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/ManagerTest.php',
         'Matrix\\Builder' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Builder.php',
         'Matrix\\Decomposition\\Decomposition' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Decomposition/Decomposition.php',
         'Matrix\\Decomposition\\LU' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Decomposition/LU.php',
@@ -4076,7 +4069,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Matrix\\Operators\\Subtraction' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Operators/Subtraction.php',
         'MediaTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MediaTableSeeder.php',
         'MigrationsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MigrationsTableSeeder.php',
-        'MissingCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/MissingCommandTest.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV5.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV6' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV6.php',
@@ -4305,10 +4297,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Orangehill\\Iseed\\TableNotFoundException' => __DIR__ . '/..' . '/orangehill/iseed/src/Orangehill/Iseed/Exceptions.php',
         'OrderStatusesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/OrderStatusesTableSeeder.php',
         'OrdersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/OrdersTableSeeder.php',
-        'Org_Heigl\\Ghostscript\\Device\\DeviceInterface' => __DIR__ . '/..' . '/org_heigl/ghostscript/src/Device/DeviceInterface.php',
-        'Org_Heigl\\Ghostscript\\Device\\Jpeg' => __DIR__ . '/..' . '/org_heigl/ghostscript/src/Device/Jpeg.php',
-        'Org_Heigl\\Ghostscript\\Device\\Png' => __DIR__ . '/..' . '/org_heigl/ghostscript/src/Device/Png.php',
-        'Org_Heigl\\Ghostscript\\Ghostscript' => __DIR__ . '/..' . '/org_heigl/ghostscript/src/Ghostscript.php',
         'Overtrue\\LaravelLang\\Commands\\Publish' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/Commands/Publish.php',
         'Overtrue\\LaravelLang\\FileLoader' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/FileLoader.php',
         'Overtrue\\LaravelLang\\TranslationServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/TranslationServiceProvider.php',
@@ -4867,7 +4855,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'PhpOffice\\PhpSpreadsheet\\Exception' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Exception.php',
         'PhpOffice\\PhpSpreadsheet\\HashTable' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/HashTable.php',
         'PhpOffice\\PhpSpreadsheet\\Helper\\Html' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Helper/Html.php',
-        'PhpOffice\\PhpSpreadsheet\\Helper\\Migrator' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Helper/Migrator.php',
         'PhpOffice\\PhpSpreadsheet\\Helper\\Sample' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Helper/Sample.php',
         'PhpOffice\\PhpSpreadsheet\\IComparable' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IComparable.php',
         'PhpOffice\\PhpSpreadsheet\\IOFactory' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php',
@@ -5090,7 +5077,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'PhpParser\\Lexer\\TokenEmulator\\NumericLiteralSeparatorEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\ReverseEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReverseEmulator.php',
         'PhpParser\\Lexer\\TokenEmulator\\TokenEmulator' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/TokenEmulator.php',
-        'PhpParser\\Lexer\\TokenEmulator\\TokenEmulatorInterface' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/TokenEmulatorInterface.php',
         'PhpParser\\NameContext' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/NameContext.php',
         'PhpParser\\Node' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Node.php',
         'PhpParser\\NodeAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/NodeAbstract.php',
@@ -5707,8 +5693,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Razorpay\\Api\\VirtualAccount' => __DIR__ . '/..' . '/razorpay/razorpay/src/VirtualAccount.php',
         'Razorpay\\Tests\\RazorpayTest' => __DIR__ . '/..' . '/razorpay/razorpay/tests/RazorpayTest.php',
         'RefreshPermissionsSeeder' => __DIR__ . '/../..' . '/database/seeds/RefreshPermissionsSeeder.php',
-        'RemoveCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/RemoveCommandTest.php',
-        'RenameCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/RenameCommandTest.php',
         'Requests' => __DIR__ . '/..' . '/rmccue/requests/library/Requests.php',
         'Requests_Auth' => __DIR__ . '/..' . '/rmccue/requests/library/Requests/Auth.php',
         'Requests_Auth_Basic' => __DIR__ . '/..' . '/rmccue/requests/library/Requests/Auth/Basic.php',
@@ -5781,6 +5765,7 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Sabberworm\\CSS\\Comment\\Comment' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php',
         'Sabberworm\\CSS\\Comment\\Commentable' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php',
         'Sabberworm\\CSS\\OutputFormat' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php',
+        'Sabberworm\\CSS\\OutputFormatter' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php',
         'Sabberworm\\CSS\\Parser' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php',
         'Sabberworm\\CSS\\Parsing\\OutputException' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php',
         'Sabberworm\\CSS\\Parsing\\ParserState' => __DIR__ . '/..' . '/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/ParserState.php',
@@ -5908,7 +5893,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'SebastianBergmann\\Timer\\RuntimeException' => __DIR__ . '/..' . '/phpunit/php-timer/src/RuntimeException.php',
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'ShowCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/ShowCommandTest.php',
         'SlidesSeeder' => __DIR__ . '/../..' . '/database/seeds/SlidesSeeder.php',
         'Spatie\\ImageOptimizer\\DummyLogger' => __DIR__ . '/..' . '/spatie/image-optimizer/src/DummyLogger.php',
         'Spatie\\ImageOptimizer\\Image' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Image.php',
@@ -6319,6 +6303,7 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcherInterface' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php',
         'Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener' => __DIR__ . '/..' . '/symfony/event-dispatcher/Debug/WrappedListener.php',
         'Symfony\\Component\\EventDispatcher\\DependencyInjection\\AddEventAliasesPass' => __DIR__ . '/..' . '/symfony/event-dispatcher/DependencyInjection/AddEventAliasesPass.php',
+        'Symfony\\Component\\EventDispatcher\\DependencyInjection\\ExtractingEventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php',
         'Symfony\\Component\\EventDispatcher\\DependencyInjection\\RegisterListenersPass' => __DIR__ . '/..' . '/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php',
         'Symfony\\Component\\EventDispatcher\\Event' => __DIR__ . '/..' . '/symfony/event-dispatcher/Event.php',
         'Symfony\\Component\\EventDispatcher\\EventDispatcher' => __DIR__ . '/..' . '/symfony/event-dispatcher/EventDispatcher.php',
@@ -6699,6 +6684,7 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Symfony\\Component\\Routing\\Loader\\ObjectLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/ObjectLoader.php',
         'Symfony\\Component\\Routing\\Loader\\ObjectRouteLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/ObjectRouteLoader.php',
         'Symfony\\Component\\Routing\\Loader\\PhpFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/PhpFileLoader.php',
+        'Symfony\\Component\\Routing\\Loader\\ProtectedPhpFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/PhpFileLoader.php',
         'Symfony\\Component\\Routing\\Loader\\XmlFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/XmlFileLoader.php',
         'Symfony\\Component\\Routing\\Loader\\YamlFileLoader' => __DIR__ . '/..' . '/symfony/routing/Loader/YamlFileLoader.php',
         'Symfony\\Component\\Routing\\Matcher\\CompiledUrlMatcher' => __DIR__ . '/..' . '/symfony/routing/Matcher/CompiledUrlMatcher.php',
@@ -6891,8 +6877,6 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
         'Symfony\\Polyfill\\Php73\\Php73' => __DIR__ . '/..' . '/symfony/polyfill-php73/Php73.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
-        'SyncCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/SyncCommandTest.php',
-        'TestCase' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/TestCase.php',
         'Tests\\Browser\\ExampleTest' => __DIR__ . '/../..' . '/tests/Browser/ExampleTest.php',
         'Tests\\Browser\\Pages\\HomePage' => __DIR__ . '/../..' . '/tests/Browser/Pages/HomePage.php',
         'Tests\\Browser\\Pages\\Page' => __DIR__ . '/../..' . '/tests/Browser/Pages/Page.php',
@@ -6910,22 +6894,12 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'Themsaid\\Langman\\Commands\\FindCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/FindCommand.php',
-        'Themsaid\\Langman\\Commands\\MissingCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/MissingCommand.php',
-        'Themsaid\\Langman\\Commands\\RemoveCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/RemoveCommand.php',
-        'Themsaid\\Langman\\Commands\\RenameCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/RenameCommand.php',
-        'Themsaid\\Langman\\Commands\\ShowCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/ShowCommand.php',
-        'Themsaid\\Langman\\Commands\\SyncCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/SyncCommand.php',
-        'Themsaid\\Langman\\Commands\\TransCommand' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Commands/TransCommand.php',
-        'Themsaid\\Langman\\LangmanServiceProvider' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/LangmanServiceProvider.php',
-        'Themsaid\\Langman\\Manager' => __DIR__ . '/..' . '/themsaid/laravel-langman/src/Manager.php',
         'TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
-        'TransCommandTest' => __DIR__ . '/..' . '/themsaid/laravel-langman/tests/TransCommandTest.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'UploadsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UploadsTableSeeder.php',
         'UserRestaurantsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserRestaurantsTableSeeder.php',
@@ -7064,6 +7038,7 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
         'anlutro\\LaravelSettings\\DatabaseSettingStore' => __DIR__ . '/..' . '/anlutro/l4-settings/src/DatabaseSettingStore.php',
         'anlutro\\LaravelSettings\\Facade' => __DIR__ . '/..' . '/anlutro/l4-settings/src/Facade.php',
         'anlutro\\LaravelSettings\\JsonSettingStore' => __DIR__ . '/..' . '/anlutro/l4-settings/src/JsonSettingStore.php',
+        'anlutro\\LaravelSettings\\LaravelIsStupidMiddleware' => __DIR__ . '/..' . '/anlutro/l4-settings/src/SaveMiddleware.php',
         'anlutro\\LaravelSettings\\MemorySettingStore' => __DIR__ . '/..' . '/anlutro/l4-settings/src/MemorySettingStore.php',
         'anlutro\\LaravelSettings\\SaveMiddleware' => __DIR__ . '/..' . '/anlutro/l4-settings/src/SaveMiddleware.php',
         'anlutro\\LaravelSettings\\ServiceProvider' => __DIR__ . '/..' . '/anlutro/l4-settings/src/ServiceProvider.php',
@@ -7154,10 +7129,10 @@ class ComposerStaticInit6dc24fae20caa22311c7f26e01e00501
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6dc24fae20caa22311c7f26e01e00501::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6dc24fae20caa22311c7f26e01e00501::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6dc24fae20caa22311c7f26e01e00501::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6dc24fae20caa22311c7f26e01e00501::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5bc8e195913a0ba1e07cfefd619bb7c7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5bc8e195913a0ba1e07cfefd619bb7c7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit5bc8e195913a0ba1e07cfefd619bb7c7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit5bc8e195913a0ba1e07cfefd619bb7c7::$classMap;
 
         }, null, ClassLoader::class);
     }
