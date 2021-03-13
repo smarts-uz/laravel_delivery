@@ -53,7 +53,20 @@ return [
             'strict' => false,
             'engine' => null,
         ],
-
+        'mysql_marketplace' => array(
+            'driver' => 'mysql',
+            'host' => env('DB_HOST_marketplace', '127.0.0.1'),
+            'port' => env('DB_PORT_marketplace', '3306'),
+            'database' => env('DB_DATABASE_marketplace', 'restoone_1'),
+            'username' => env('DB_USERNAME_marketplace', 'root'),
+            'password' => env('DB_PASSWORD_marketplace', 'root'),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => false,
+            'engine' => null,
+        ),
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
